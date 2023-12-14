@@ -1,0 +1,526 @@
+End User License Agreement
+
+Please read this EULA carefully, as it sets out the basis upon which we license
+the Software for use.
+
+Important notice to all users: by downloading and/or using this software you
+acknowledge that you have read this EULA, understand it and agree to be bound by
+its terms and conditions. If you do not agree to the terms of this EULA do not
+download, install, copy or use the software.
+
+By agreeing to be bound by this EULA, you further agree that any person who
+accesses the Software through your download will comply with the provision of
+this EULA.
+
+1. Definitions.
+    1. In this EULA, except to the extent expressly provided otherwise:
+        - “Commercial License” means a license to use Software for Commercial
+            Purposes.
+        - “Commercial Purposes” means lawful activities carried out with the
+            purpose of obtaining economic benefit, including profit in cash or
+            in kind, and is directed towards exchange for economic use or
+            benefit, or any other form of economic use or benefit.
+        - “Distribute” means to provide or otherwise make the Software (or any
+            component thereof) available, or to make its functionality available
+            on a network.
+        - "Documentation" means the documentation for the Software produced by
+            the Licensor and delivered or made available by the Licensor to the
+            User (if any);
+        - "Effective Date" means the date upon which the User downloads and/ or
+            installs the Software or gives their express consent to this EULA,
+            following the issue of this EULA by the Licensor;
+        - "EULA" means this end user license agreement, including any amendments
+            to this end user license agreement from time to time;
+        - "Force Majeure Event" means an event, or a series of related events,
+            that is outside the reasonable control of the party affected
+            (including failures of the internet or any public telecommunications
+            network, hacker attacks, denial of service attacks, virus or other
+            malicious software attacks or infections, power failures, industrial
+            disputes affecting any third party, changes to the law, disasters,
+            epidemics, pandemics, explosions, fires, floods, riots, terrorist
+            attacks and wars);
+        - "Intellectual Property Rights" means all intellectual property rights
+            wherever in the world, whether registrable or unregistrable,
+            registered or unregistered, including any application or right of
+            application for such rights (and these "intellectual property
+            rights" include copyright and related rights, database rights,
+            confidential information, trade secrets, know-how, business names,
+            trade names, trade marks, service marks, passing off rights, unfair
+            competition rights, patents, petty patents, utility models,
+            semi-conductor topography rights and rights in designs);
+        - "Licensor" or “We” means Double Negative Limited, a company
+            incorporated in England and Wales (registration number 03325701)
+            having its registered office at 160 Great Portland Street, London
+            W1W 5QA
+        - "Maintenance Services" means the application to the Software of
+            Updates and Upgrades;
+        - “Packaged Project” means an executable exported from the Unreal Editor
+            into an application file.
+        - "Personal Data" means any information relating to an identified or
+            identifiable natural person.
+        - “Product” means any product developed that incorporates the Software
+            in any way.
+        - "Services" means any services that the Licensor provides to the User,
+            or has an obligation to provide to the User, under this EULA;
+        - "Software" means any generally available Version of the DNEG software
+            product, including but not limited to, one or more of the following:
+            source code, object code, dynamic link libraries, statically, linked
+            libraries, or unoptimized (debug) libraries, executables, header
+            files, sample programs, utility programs, makefiles, project files
+            and scripts software plugins, irrespective of whether any such
+            software (i) may or may not be covered by a License or (ii) is or is
+            not provided perpetually and/or royalty-free. For the avoidance of
+            doubt, Software is not produced to the specifications of the User
+            nor customized through modification or personalization.
+        - "Software Specification" means the specification for the Software set
+            out in the Documentation;
+        - "Source Code" means the Software code in human-readable form or any
+            part of the Software code in human-readable form, including code
+            compiled to create the Software or decompiled from the Software, but
+            excluding interpreted code comprised in the Software;
+        - "Support Services" means support in relation to the use of the
+            Software and the identification and resolution of errors in the
+            Software, but shall not include the provision of training services
+            whether in relation to the Software or otherwise;
+        - "Term" means the term of this EULA, commencing in accordance with
+            Clause 2.1 and ending in accordance with Clause 2.2;
+        - "Update" means a hotfix, patch or minor version update to the Software;
+        - "Upgrade" means a major version upgrade of the Software;
+        - "User" or “You” means the person to whom the Licensor grants a right
+            to use the Software under this EULA and any other person that
+            accesses the software through their download; and
+        - "User Indemnity Event" has the meaning given to it in Clause 13
+        - “Version” means a release, update, or upgrade of the Software
+        - “Website” means www.dneg.com and any of its subdomains.
+
+2. Term
+
+    1. This EULA shall come into force upon the Effective Date.
+    2. This EULA shall continue in force indefinitely, subject to termination in
+        accordance with Clause 17 or any other provision of this EULA.
+
+3. License
+    1. Subject to the limitations and prohibitions set out and referred to in
+        this Clause 3, the Licensor hereby grants to the User from the Effective
+        Date until the end of the Term:
+        1. A worldwide, non-exclusive, non-transferable Commercial License to:
+            1. Install and use the Software for their own Commercial Purposes,
+            2. Package the Software into a Packaged Project to be used for their
+                own Commercial Purposes.
+        3. The Software is made available on a limited license or access basis,
+            and no ownership right is conveyed to the User, irrespective of the
+            use of terms such as “purchase” or “sale” or "contract". Double
+            Negative Limited has and retains all right, title and interest,
+            including all intellectual property rights, in and to the Products
+            any and all related or underlying technology, and any modifications
+            or derivative works of the foregoing created by or for Double
+            Negative Limited, including without limitation as they may
+            incorporate Feedback (as defined below).
+        4. Only to the extent that is proportionate to, and reasonably necessary
+            to support the User’s licensed use of the Software in accordance
+            with this EULA, the User may install the Software on more than one
+            computer.
+        5. The User may not sub-license and must not purport to sub-license any
+            rights granted under Clauses 3.1 or 3.2.
+        6. Save to the extent expressly permitted by this EULA, by separate
+            contract, or as required by applicable law on a non-excludable basis,
+            any license granted under this Clause 3 shall be subject to the
+            following prohibitions:
+            1. the User must not sell, resell, rent, lease, loan, supply,
+                publish, distribute or redistribute the Software;
+            2. the User must not alter, edit, adapt or create derivative works
+                of the Software;
+            3. the User must not decompile, de-obfuscate or reverse engineer, or
+                attempt to decompile, de-obfuscate or reverse engineer the
+                Software;
+            4. the User must not implement or use any method or mechanism
+                designed to enable product functionality not available in the
+                Software;
+            5. the User must under no circumstances provide access to their
+                Account to any third party;
+        7. If permitted by your Commercial License, you may Distribute the
+            Software as an inseparable part of a Packaged Project or Product
+            to end users who are subject to an end user license agreement
+            which explicitly disclaims any representations, warranties,
+            conditions, and liabilities related to the Software.
+        8. Any distribution of Packaged Projects that include the Software,
+            shall be under the terms of this EULA that:
+            1. prohibit any modifications to the Software or any part thereof;
+            2. prohibit any reverse engineering, disassembly or recompilation of
+                the the Software or any part thereof, or any protocols used in
+                the Software, and further prohibit any attempt to do so;
+            3. prohibit any implementation or use of any method or mechanism
+                designed to enable product functionality not available in the
+                Software;
+            4. disclaim any and all warranties on behalf of DNEG and each of its
+                licensors;
+            5. disclaim, to the extent permitted by applicable law, liability of
+                DNEG and/or its licensors for any damages, whether direct,
+                indirect, incidental or consequential, arising from the use of
+                the Packaged Projects; and
+            6. include the appropriate copyright notice showing DNEG as
+                copyright owner of the Software.
+        9. The User agrees not to use the Software for any unlawful purpose or
+            in any way to cause injury, harm or damage to DNEG, or its Products,
+            trademarks, reputation and/or goodwill.
+        10. The User agrees not to use information provided pursuant to the
+            Software, to interfere with DNEG in the commercialization of DNEG
+            Products.
+        11. The User acknowledges that information provided to DNEG to induce
+            DNEG to grant a Commercial License to the User is true.
+        12. DNEG makes the Software available for Users under these specific
+            conditions herein. If any, or all, of the terms of this EULA are not
+            enforceable within your legal jurisdiction in any way, or if any
+            clause is voided or modified in any way, then you may not enter
+            into this agreement, any permission granted herein is revoked and
+            withdrawn as of the date you first downloaded and/or used the
+            Software, and you are then unauthorized to use the Software in any
+            way.
+        13. No employment, joint venture, partnership, or other business venture
+            is created by the Commercial or Royalty-Free Licenses.
+
+4. Personal Data
+    1. In connection with your use of the Software, DNEG may process Personal
+        Data of you, the User and the Product Holder (if appropriate), in
+        particular, Your contact and identification details, data about usage of
+        our software and services, and information about your license and
+        payments, for the following purposes:
+        1. To provide you with software, services or information;
+        2. To protect us from piracy and unlawful use of our software or
+            services;
+        3. To improve our offerings based on usage;
+        4. For our internal records and to protect our rights and interests
+            and those of other users;
+        5. To promote and market our software and services; and
+        7. To fulfil legal duties stipulated by accounting, taxation, and
+        other laws.
+    2. You may object to the processing of your Personal Data for the purposes
+        of 4.1.2 through 4.1.5 at any time. More detailed information about
+        Personal Data processing for the above mentioned purposes and about
+        your rights can be found in the Privacy Policy.
+    3. For the above purposes, DNEG may collect, among other things, your IP
+        address, DNEG Account username and password, first name, last name and
+        email address.
+    4. On installation and execution, the Software may send DNEG certain
+        information, which will not contain any Personal Data, including
+        Software Version, information about the operating system and environment
+        where the Software is installed, and components of the Software that are
+        in use. A unique ID, which does not contain any Personal Data, is also
+        used to distinguish instances. The Software can also check for available
+        updates. You may opt out of sending this data by changing your
+        DNEG Account settings on the DNEG Website or by carrying on the
+        disclosed changes in the Software Settings where applicable.
+    5. DNEG is not responsible for any processing of Personal Data accidentally
+        sent to DNEG by the User.
+    6. You shall keep your Personal Data up-to-date and if any inconsistencies
+        arise report such inconsistencies to DNEG.
+
+5. Access to the Software
+    1. Users may use the Software in accordance with its documentation or as
+        otherwise specified by DNEG. Users are solely responsible for the
+        accuracy and completeness of any information provided via and any action
+        taken through their Account.
+    2. You may use your Account credentials in the Software so that we can
+        verify your rights to use it.
+    3. You acknowledge that the Software may periodically connect to DNEG
+        servers to update your Account information, including, but not limited
+        to, changes to your Account credentials, login IP information and the
+        number of licensed machines.
+    4. All deliveries under this Agreement will be electronic. You must have an
+        Internet connection in order to access your Account and to receive any
+        deliveries. For the avoidance of doubt, You are responsible for the
+        Software download and installation.
+
+6. Marketing Rights
+    1. Unless explicitly agreed otherwise via a separate license or contract,
+        Users grant Double Negative Limited the right to use their brand of
+        their company (provided that it is not Personal Data) in its marketing
+        materials by publicising that they are a user of DNEG Software on its
+        Website or in other marketing materials released to the public.
+
+7. Source Code
+    1. If DNEG has agreed to license to the User (including by way of providing
+        upgrades, updates or enhancements/customization) source code or elements
+        of the source code of the Software, the intellectual property rights in
+        which belong either to DNEG or to a Third Party Licensor (“Source Code”),
+        the User shall be licensed to use the Source Code as Software on the
+        terms of this EULA and:
+        1. the User may use the Source Code at its own risk in any reasonable
+            way for the limited purpose of enhancing its use of the Software
+            solely for its own internal business purposes and in all respects
+            in accordance with this EULA;
+        2. the User shall in respect of the Source Code comply strictly with all
+            other restrictions applying to its use of the Software under this
+            EULA as well as any other restriction or instruction that is
+            communicated to it by DNEG at any time during the Agreement
+            (whether imposed or requested by DNEG or by any Third Party
+            Licensor);
+    2. To the extent that the Software links to any open source software
+        libraries (“OSS Libraries”) that are provided to Licensee with the
+        Software, nothing in the Agreement shall affect Licensee’s rights under
+        the licenses on which the relevant Third Party Licensor has licensed the
+        OSS Libraries. To the extent that Third Party Licensors have licensed
+        OSS Libraries on the terms of v2.1 of the Lesser General Public License
+        issued by the Free Software Foundation (see http://www.gnu.org/licenses/lgpl-2.1.html)(the “LGPL”),
+        those OSS Libraries are licensed to Licensee on the terms of the LGPL
+        and are referred to in this clause 7 as the LGPL Libraries.
+    3. Notwithstanding any other term of the Agreement, DNEG gives no express or
+        implied warranty, undertaking or indemnity whatsoever in respect of the
+        Source Code, the OSS Libraries (including the LGPL Libraries), the LGPL
+        Source or the Object, all of which are licensed on an “as is” basis, or
+        in respect of any modification of the Source Code, the OSS Libraries
+        (including the LGPL Libraries) or the LGPL Source made by Licensee
+        (“Modification”). Licensee may not use the Object for any purpose other
+        than its use of the Software in accordance with this EULA.
+        Notwithstanding any other term of the Agreement, DNEG shall have no
+        obligation to provide support, maintenance, upgrades or updates of or in
+        respect of any of the Source Code, the OSS Libraries (including the LGPL
+        Libraries), the LGPL Source, the Object or any Modification. Licensee
+        shall indemnify DNEG against all liabilities and expenses (including
+        reasonable legal costs) incurred by DNEG in relation to any claim
+        asserting that any Modification infringes the intellectual property
+        rights of any third party.
+
+8. Maintenance Services
+    1. The Licensor has the right to stop and/or make a good faith decision to
+        stop providing maintenance services in relation to the Software at
+        any time.
+    2. The Licensor is under no obligation to provide any Updates or Upgrades or
+        new Versions of the Software.
+
+9. Support Services
+    1. The Licensor is under no contractual obligation to provide Support
+        Services to the User irrespective of any Commercial License that they
+        hold.
+
+10. User Feedback and Submissions
+    1. The User has no obligation to provide us with ideas, suggestions, or
+        proposals ("Feedback"). However, if You submit Feedback to us, then you
+        grant us a non-exclusive, worldwide, royalty-free license that is
+        sub-licensable and transferable, to make, use, sell, have made, offer to
+        sell, import, reproduce, publicly display, distribute, modify, or
+        publicly perform the Feedback in any manner without any obligation,
+        royalty, or restriction based on intellectual property rights or
+        otherwise.
+    2. Additionally, if, at our request, you send certain specific Submissions
+        (for example contest entries) or without a request from us you send
+        creative ideas, suggestions, proposals, plans, or other materials,
+        whether online, by email, by postal mail, or otherwise (collectively,
+        'Submissions'), you agree that we may, at any time, without restriction,
+        edit, copy, publish, distribute, translate and otherwise use in any
+        medium any Submissions that you forward to us. We are and shall be under
+        no obligation:
+        1. to maintain any Submissions in confidence;
+        2. to pay compensation for any Submissions; or
+        3. to respond to any Submissions.
+    3. You agree that your Submissions will not violate any right of any
+        third-party, including copyright, trademark, privacy, personality or
+        other personal or proprietary right. You further agree that your
+        Submissions will not contain libelous or otherwise unlawful, abusive or
+        obscene material, or contain any computer virus or other malware that
+        could in any way affect the operation of the Software or our Services.
+        You may not use a false e-mail address, pretend to be someone other than
+        yourself, or otherwise mislead us or third-parties as to the origin of
+        any Submissions. You are solely responsible for any Submissions you make
+        and their accuracy. We take no responsibility and assume no liability
+        for any Submissions posted by you or any third-party.
+
+11. Third-Party Software
+    1. The Software may  include code and libraries licensed to Us by third
+        parties, including open source software ("Third-Party Software").
+        A list of Third-Party Software included in each Product will be
+        available in the Product documentation where applicable or on request.
+        All Third-Party Software is provided to You under the respective terms
+        stipulated in the Product documentation.
+    2. DNEG provides no warranty, express or implied, with respect to any
+    third-party software, and expressly disclaims any warranty or condition of
+    merchantability, fitness for a particular purpose, title, and
+    non-infringement.
+
+12. No assignment of Intellectual Property Rights
+    1. Nothing in this EULA shall operate to assign or transfer any Intellectual
+        Property Rights from the Licensor to the User, or from the User to the
+        Licensor.
+
+13. Warranties
+    1. The Licensor warrants to the User that it has the legal right and
+        authority to enter into this EULA and to perform its obligations under
+        this EULA.
+    2. The User warrants to the Licensor that it has the legal right and
+        authority to enter into this EULA and to perform its obligations under
+        this EULA.
+    3. All of the parties' warranties and representations in respect of the
+        subject matter of this EULA are expressly set out in this EULA. To the
+        maximum extent permitted by applicable law, no other warranties or
+        representations concerning the subject matter of this EULA will be
+        implied into this EULA or any related contract.
+
+14. Acknowledgements and Warranty Limitations
+    1. The User acknowledges that complex software is never wholly free from
+        defects, errors and bugs; and subject to the other provisions of this
+        EULA, the Licensor gives no warranty or representation that the Software
+        will be wholly free from defects, errors and bugs.
+    2. The User acknowledges that complex software is never entirely free from
+        security vulnerabilities; and subject to the other provisions of this
+        EULA, the Licensor gives no warranty or representation that the Software
+        will be entirely secure.
+    3. The User acknowledges that the Software is only designed to be compatible
+        with that software specified as compatible in the Software
+        Specification; and the Licensor does not warrant or represent that the
+        Software will be compatible with any other software.
+    4. The User acknowledges that the Licensor will not provide any legal,
+        financial, accountancy or taxation advice under this EULA or in relation
+        to the Software; and, except to the extent expressly provided otherwise
+        in this EULA, the Licensor does not warrant or represent that the
+        Software or the use of the Software by the User will not give rise to
+        any legal liability on the part of the User or any other person.
+
+15. Indemnities
+    1. The User shall indemnify and shall keep indemnified the Licensor against
+        any and all liabilities, damages, losses, costs and expenses (including
+        legal expenses and amounts reasonably paid in settlement of legal
+        claims) suffered or incurred by the Licensor and arising directly or
+        indirectly as a result of any breach by the User of this EULA (a
+        "User Indemnity Event").
+    2. The Licensor must:
+        1. upon becoming aware of an actual or potential User Indemnity Event,
+            notify the User;
+        2. provide to the User all such assistance as may be reasonably
+            requested by the User in relation to the User Indemnity Event;
+        3. allow the User the exclusive conduct of all disputes, proceedings,
+            negotiations and settlements with third parties relating to the User
+            Indemnity Event; and
+        4. not admit liability to any third party in connection with the User
+            Indemnity Event or settle any disputes or proceedings involving a
+            third party and relating to the User Indemnity Event without the
+            prior written consent of the User.
+    3. The indemnity protection set out in this Clause 15 shall not be subject
+        to the limitations and exclusions of liability set out in this EULA.
+
+16. Limitations and Exclusions of Liability
+    1. Nothing in this EULA will:
+        1. limit any liabilities in any way that is not permitted under
+            applicable law; or
+        2. exclude any liabilities that may not be excluded under applicable
+            law, and;
+        3. if a party is a consumer, that party's statutory rights will not be
+            excluded or limited by this EULA, except to the extent permitted by
+            law.
+    2. The limitations and exclusions of liability set out in this Clause 11 and
+        elsewhere in this EULA:
+        1. are subject to Clause 11.1; and
+        2. govern all liabilities arising under this EULA or relating to the
+            subject matter of this EULA, including liabilities arising in
+            contract, in tort (including negligence) and for breach of statutory
+            duty, except to the extent expressly provided otherwise in this EULA.
+    3. The Licensor will not be liable to the User in respect of any losses
+        arising out of a Force Majeure Event.
+    4. The Licensor will not be liable to the User in respect of any loss of
+        profits or anticipated savings.
+    5. The Licensor will not be liable to the User in respect of any loss of
+        revenue or income.
+    6. The Licensor will not be liable to the User in respect of any loss of
+        business, contracts or opportunities.
+    7. The Licensor will not be liable to the User in respect of any loss or
+        corruption of any data, database or software.
+    8. The Licensor will not be liable to the User in respect of any special,
+        indirect or consequential loss or damage.
+
+17. Termination
+    1. We may terminate or suspend the access of any User of a Commercial
+        License immediately, without prior notice or liability, for any reason
+        whatsoever, including without limitation if you breach the Terms of this
+        EULA.
+    2. Either party may terminate this EULA immediately by giving written notice
+        of termination to the other party if the other party commits any breach
+        of this EULA.
+    3. Subject to applicable law, either party may terminate this EULA
+        immediately by giving written notice of termination to the other party
+        if:
+        1. the other party:
+            1. is dissolved;
+            2. ceases to conduct all (or substantially all) of its business;
+            3. is or becomes unable to pay its debts as they fall due;
+            4. is or becomes insolvent or is declared insolvent; or
+            5. convenes a meeting or makes or proposes to make any arrangement
+            or composition with its creditors;
+        2. an administrator, administrative receiver, liquidator, receiver,
+            trustee, manager or similar is appointed over any of the assets of
+            the other party;
+        3. an order is made for the winding up of the other party,
+            or the other party passes a resolution for its winding up
+            (other than for the purpose of a solvent company reorganisation
+            where the resulting entity will assume all the obligations of the
+            other party under this EULA); or
+        4. if that other party is an individual:
+            1. that other party dies;
+            2. as a result of illness or incapacity, that other party becomes
+                incapable of managing his or her own affairs; or
+            3. that other party is the subject of a bankruptcy petition or order.
+
+18. Effects of Termination
+    1. Upon the termination of this EULA, all of the provisions of this EULA
+        shall cease to have effect, save that the following provisions of this
+        EULA shall survive and continue to have effect (in accordance with their
+        express terms or otherwise indefinitely):
+        [Clauses 1, 10, 11, 12, 13, 14 and 15].
+    2. Except to the extent expressly provided otherwise in this EULA, the
+        termination of this EULA shall not affect the accrued rights of either
+        party.
+    3. For the avoidance of doubt, the licenses of the Software in this EULA
+        shall terminate upon the termination of this EULA; and, accordingly,
+        the User must immediately cease to use the Software upon the termination
+        of this EULA.
+    4. Within 10 Business Days following the termination of this EULA, the
+        User must:
+        1. return to the Licensor or dispose of as the Licensor may instruct
+            all media in its possession or control containing the Software; and
+        2. irrevocably delete from all computer systems in its possession or
+            control all copies of the Software.
+
+19. General
+    1. No breach of any provision of this EULA shall be waived except with the
+        express written consent of the party not in breach.
+    2. If any provision of this EULA is determined by any court or other
+        competent authority to be unlawful and/or unenforceable, the other
+        provisions of this EULA will continue in effect. If any unlawful and/or
+        unenforceable provision would be lawful or enforceable if part of it
+        were deleted, that part will be deemed to be deleted, and the rest of
+        the provision will continue in effect (unless that would contradict the
+        clear intention of the parties, in which case the entirety of the
+        relevant provision will be deemed to be deleted).
+    3. This EULA may not be varied except by a written document signed by or on
+        behalf of each of the parties.
+    4. The User hereby agrees that the Licensor may assign the Licensor's
+        contractual rights and obligations under this EULA to any third party.
+        Save to the extent expressly permitted by applicable law, the User must
+        not without the prior written consent of the Licensor assign, transfer
+        or otherwise deal with any of the User's contractual rights or
+        obligations under this EULA.
+    5. This EULA is made for the benefit of the parties, and is not intended to
+        benefit any third party or be enforceable by any third party. The rights
+        of the parties to terminate, rescind, or agree any amendment, waiver,
+        variation or settlement under or relating to this EULA are not subject
+        to the consent of any third party.
+    6. Subject to Clause 11.1, this EULA shall constitute the entire agreement
+        between the parties in relation to the subject matter of this EULA, and
+        shall supersede all previous agreements, arrangements and understandings
+        between the parties in respect of that subject matter.
+    7. This EULA shall be governed by and construed in accordance with English
+        law.
+    8. The courts of England shall have exclusive jurisdiction to adjudicate any
+        dispute arising under or in connection with this EULA.
+
+20. Interpretation
+1. In this EULA, a reference to a statute or statutory provision includes a
+    reference to:
+    1. that statute or statutory provision as modified, consolidated and/or
+        re-enacted from time to time; and
+    2. any subordinate legislation made under that statute or statutory
+        provision.
+    3. The Clause headings do not affect the interpretation of this EULA.
+    4. References in this EULA to "calendar months" are to the 12 named periods
+        (January, February and so on) into which a year is divided. In this
+        EULA, general words shall not be given a restrictive interpretation by
+        reason of being preceded or followed by words indicating a particular
+        class of acts, matters or things.

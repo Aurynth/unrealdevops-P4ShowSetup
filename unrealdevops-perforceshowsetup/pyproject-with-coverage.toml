@@ -1,0 +1,37 @@
+# Setup following https://setuptools.pypa.io/en/latest/userguide/quickstart.html
+[project]
+name = "python_cookie_cutter"
+dynamic = ["version", "readme"]
+requires-python = ">=3.7"
+license = {file = "LICENSE"}
+authors = [
+    {name = "Luis Placid", email = "lpla@dneg.com"}
+]
+maintainers = [
+    {email = "realtime-support@dneg.com"}
+]
+
+[project.urls]
+Documentation = "http://stash/projects/RNDVP/repos/unrealdevops-pythoncookiecutter/browse/README.md"
+Repository = "http://stash/projects/RNDVP/repos/unrealdevops-pythoncookiecutter/.git"
+Changelog = "http://stash/projects/RNDVP/repos/unrealdevops-pythoncookiecutter/browse/RELEASE_NOTES.rst"
+
+[tool.setuptools.dynamic]
+version = {file = "[VERSION]"}
+readme = {file = ["README.md"]}
+
+[tool.setuptools.packages]
+find = {}
+
+[tool.coverage.run]
+omit = [
+    "*/test/*",
+    "*/__init__.py",
+    "*/test_*.py",
+    "*venv"
+]
+source = ["src"]
+
+[tool.pytest.ini_options]
+addopts = "--cov=src --cov-report term-missing --cov-report html --ignore=.venv --ignore=venv --cov-fail-under=80"
+testpaths = ["src"]

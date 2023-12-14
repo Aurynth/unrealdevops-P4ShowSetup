@@ -1,0 +1,206 @@
+{
+    "TS": {
+        "permissions": [
+            "write group {show} 10.* //{show}/... ## Only for those who need access to the entire depot - {user} {mdy_str}",
+            "write group {show}-External * //{show}/... ## Only for those who need access to the entire depot - {user} {mdy_str}",
+            "write group {show}-Main 10.* //{show}/*-main/... ## For those who need to manage data transfers to or from the mainline - {user} {mdy_str}",
+            "write group {show}-Main-External * //{show}/*-main/... ## For those who need to manage data transfers to or from the mainline - {user} {mdy_str}",
+            "write group {show}-Development 10.* //{show}/*-dev/... ## Internal content creation access - {user} {mdy_str}",
+            "write group {show}-Development-External * //{show}/*-dev/... ## External content creation access - {user} {mdy_str}",
+            "write group {show}-Incoming * //{show}/*-incoming/... ## External write access for incoming client data - {user} {mdy_str}",
+            "read group {show}-Outgoing * //{show}/*-outgoing/... ## External read-only access for outgoing client data - {user} {mdy_str}",
+            "write group {show}-Volume-Edit-External * //VPCORE/Vol/{show}-Core-rel/... ## Gives access to volume core release - {user} {mdy_str}",
+            "read group {show}-Volume-Render-External * //VPCORE/Vol/{show}-Core-rel/... ## Gives access to volume core release - {user} {mdy_str}",
+            "write group {show}-Core 10.* //VPCORE/{show}-Core-rel/... ## Gives access to regular core release. Not the volume - {user} {mdy_str}",
+            "write group {show}-Core-External * //VPCORE/{show}-Core-rel/... ## Gives access to regular core release. Not the volume - {user} {mdy_str}",
+            "write group dnegvp_volume * //{show}/... ## Granting sub-permissions access for DNEG VP - {user} {mdy_str}"
+        ],
+        "groups": {
+            "{show}": "empty",
+            "{show}-External": {
+                "Owners": [
+                    {
+                        "groups": "dnegvp_volume"
+                    }
+                ]
+            },
+            "{show}-Main": "empty",
+            "{show}-Main-External": {
+                "Owners": [
+                    {
+                        "groups": "dnegvp_volume"
+                    }
+                ]
+            },
+            "{show}-Development": "empty",
+            "{show}-Development-External": {
+                "Owners": [
+                    {
+                        "groups": "dnegvp_volume"
+                    }
+                ]
+            },
+            "{show}-Incoming": "empty",
+            "{show}-Outgoing": "empty",
+            "{show}-Volume-Edit-External": {
+                "Owners": [
+                    {
+                        "groups": "dnegvp_volume"
+                    }
+                ]
+            },
+            "{show}-Volume-Render-External": {
+                "Owners": [
+                    {
+                        "groups": "dnegvp_volume"
+                    }
+                ]
+            },
+            "{show}-Core": "empty",
+            "{show}-Core-External": {
+                "Owners": [
+                    {
+                        "groups": "dnegvp_volume"
+                    }
+                ]
+            }
+        },
+        "streams": {
+            "//{show}/{show}-main": {
+                "type": "mainline",
+                "branch": "//DNEG_Sandbox/UE5/Template"
+            },
+            "//{show}/{show}-dev": {
+                "type": "development",
+                "parent": "//{show}/{show}-main"
+            },
+            "//{show}/{show}-incoming": {
+                "type": "mainline"
+            },
+            "//{show}/{show}-outgoing": {
+                "type": "mainline"
+            }
+        }
+    },
+    "VFX": {
+        "permissions": [
+            "write group {show} 10.* //{show}/*-dev/... ## Internal content creation access - {user} {mdy_str}",
+            "write group {show}-External * //{show}/*-dev/... ## External content creation access - {user} {mdy_str}",
+            "write group {show}-Incoming * //{show}/*-incoming/... ## External write access for incoming client data - {user} {mdy_str}",
+            "read group {show}-Outgoing * //{show}/*-outgoing/... ## External read-only access for outgoing client data - {user} {mdy_str}",
+            "write group {show}-Production * //{show}/... ## Production management access for the depot - {user} {mdy_str}"
+        ],
+        "groups": {
+            "{show}": "empty",
+            "{show}-External": "empty",
+            "{show}-Incoming": "empty",
+            "{show}-Outgoing": "empty",
+            "{show}-Production": "empty"
+        },
+        "streams": {
+            "//{show}/{show}-main": {
+                "type": "mainline",
+                "branch": "//DNEG_Sandbox/UE5/Template"
+            },
+            "//{show}/{show}-dev": {
+                "type": "development",
+                "parent": "//{show}/{show}-main"
+            },
+            "//{show}/{show}-incoming": {
+                "type": "mainline",
+                "branch": "//DNEG_Sandbox/UE5/Template"
+            },
+            "//{show}/{show}-outgoing": {
+                "type": "mainline",
+                "branch": "//DNEG_Sandbox/UE5/Template"
+            }
+        }
+    },
+    "RE": {
+        "permissions": [
+            "write group {show} 10.* //{show}/*-dev/... ## Internal content creation access - {user} {mdy_str}",
+            "write group {show}-External * //{show}/*-dev/... ## External content creation access - {user} {mdy_str}",
+            "write group {show}-Incoming * //{show}/*-incoming/... ## External write access for incoming client data - {user} {mdy_str}",
+            "read group {show}-Outgoing * //{show}/*-outgoing/... ## External read-only access for outgoing client data - {user} {mdy_str}",
+            "write group {show}-Production * //{show}/... ## Production management access for the depot - {user} {mdy_str}"
+        ],
+        "groups": {
+            "{show}": "empty",
+            "{show}-External": "empty",
+            "{show}-Incoming": "empty",
+            "{show}-Outgoing": "empty",
+            "{show}-Production": "empty"
+        },
+        "streams": {
+            "//{show}/{show}-main": {
+                "type": "mainline",
+                "branch": "//DNEG_Sandbox/UE5/Template"
+            },
+            "//{show}/{show}-dev": {
+                "type": "development",
+                "parent": "//{show}/{show}-main"
+            },
+            "//{show}/{show}-incoming": {
+                "type": "mainline",
+                "branch": "//DNEG_Sandbox/UE5/Template"
+            },
+            "//{show}/{show}-outgoing": {
+                "type": "mainline",
+                "branch": "//DNEG_Sandbox/UE5/Template"
+            }
+        }
+    },
+    "TESTDIV": {
+        "permissions": [
+            "write group {show} 10.* //{show}/... ## Only for those who need access to the entire depot - {user} {mdy_str}",
+            "write group {show}-External * //{show}/... ## Only for those who need access to the entire depot - {user} {mdy_str}",
+            "write group {show}-Main 10.* //{show}/*-main/... ## For those who need to manage data transfers to or from the mainline - {user} {mdy_str}",
+            "write group {show}-Main-External * //{show}/*-main/... ## For those who need to manage data transfers to or from the mainline - {user} {mdy_str}",
+            "write group dnegvp_volume * //{show}/... ## Granting sub-permissions access for DNEG VP - {user} {mdy_str}"
+        ],
+        "groups": {
+            "{show}": "empty",
+            "{show}-External": {
+                "Owners": [
+                    {
+                        "groups": "dnegvp_volume"
+                    }
+                ]
+            },
+            "{show}-Main": {
+                "Owners": [
+                    "tjen",
+                    "lpla"
+                ],
+                "Users": [
+                    {
+                        "groups": "dnegvp_volume"
+                    },
+                    "lpla"
+                ]
+            },
+            "{show}-Main-External": {
+                "Users": [
+                    "tjen",
+                    "lpla"
+                ]
+            }
+        },
+        "streams": {
+            "//{show}/{show}-main": {
+                "type": "mainline",
+                "branch": "//FIRSTDPT/FIRSTDPT-main"
+            },
+            "//{show}/{show}-dev": {
+                "type": "development",
+                "parent": "//{show}/{show}-main"
+            },
+            "//{show}/{show}-incoming": {
+                "type": "mainline"
+            },
+            "//{show}/{show}-outgoing": {
+                "type": "mainline"
+            }
+        }
+    }
+}
